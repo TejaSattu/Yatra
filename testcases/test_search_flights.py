@@ -83,3 +83,4 @@ class TestSearchAndVerifyFilters:
         search_page.all_flights_in_search_flight_page()
 
         self.log.info("===== TEST COMPLETED SUCCESSFULLY =====")
+        self.log.info("******* ============================ *******")

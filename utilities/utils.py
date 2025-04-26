@@ -14,7 +14,7 @@ class Utils:
         if not logger.handlers:
             # Create a file handler to write log messages to a file named 'automation.log'
             # Set mode 'w' to overwrite the file every time the program runs
-            file_handler = logging.FileHandler("automation.log", mode='w')
+            file_handler = logging.FileHandler("automation.log", mode='a')
             file_handler.setLevel(logging_level)
 
             # Create a log message format (timestamp, logger name, log level, and the message)
