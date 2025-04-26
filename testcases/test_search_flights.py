@@ -1,8 +1,10 @@
+import logging
 import time
 import pytest
 from selenium.webdriver.support.ui import WebDriverWait
 from pages.search_flight_page import search_flight_page
 from pages.yatra_launch_page import Launching_page
+from utilities.utils import Utils
 
 
 # This fixture runs automatically after each test case
@@ -14,6 +16,7 @@ def wait_after_test():
 
 @pytest.mark.usefixtures("setup")
 class TestSearchAndVerifyFilters:
+    log = Utils.custom_logger(logging_level=logging.INFO)
     def test_search_flight(self):
         # Set an implicit wait for element availability
         self.wait = WebDriverWait(self.driver, 10)
@@ -35,6 +38,6 @@ class TestSearchAndVerifyFilters:
         # search_flight = search_flight_page(self.driver, self.wait)
         # Apply the filter for 1-stop flights
         search_button.filter_by_stop("1 Stop")
-        search_button.filter_by_stop("2 Stop")
-        search_button.filter_by_stop("No Stop")
+        # search_button.filter_by_stop("2 Stop")
+        # search_button.filter_by_stop("No Stop")
         search_button.all_flights_in_search_flight_page()

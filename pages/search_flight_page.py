@@ -1,11 +1,14 @@
+import logging
 import time
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import pytest
+from utilities.utils import Utils
 from base.base_driver import base_driver
 
 
 class search_flight_page(base_driver):
+
+    log = Utils.custom_logger(logging_level=logging.INFO)
 
     def __init__(self, driver, wait):
         super().__init__(driver, wait)
@@ -35,12 +38,15 @@ class search_flight_page(base_driver):
     def filter_by_stop(self, by_stop):
         if by_stop == "1 Stop":
             self.filter_one_stop().click()
+            self.log.warning("1 Stop Filtered")
             time.sleep(2)
         elif by_stop == "2 Stop":
             self.filter_two_stop().click()
+            self.log.warning("2 Stop Filtered")
             time.sleep(2)
         elif by_stop == "No Stop":
             self.filter_zero_stop().click()
+            self.log.warning("0 Stop Filtered")
             time.sleep(2)
         else:
             print("Enter Valid stop")
@@ -48,6 +54,7 @@ class search_flight_page(base_driver):
     def all_flights_in_search_flight_page(self):
 
         all_flights = self.presence_of_elements_located(By.CLASS_NAME, "js-flightItem")
-        print("Total number flight in the search flight page is", len(all_flights))
+        self.log.info(f"Total number flight in the search flight page is %s", len(all_flights))
+
 
 
