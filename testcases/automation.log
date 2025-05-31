@@ -1,0 +1,85 @@
+2025-05-28 22:21:17,294 - automationLogger - INFO - Opening Edge Browser
+2025-05-28 22:21:25,507 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-28 22:21:25,507 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-28 22:21:41,805 - automationLogger - INFO - Closing the browser
+2025-05-28 22:22:18,561 - automationLogger - INFO - Opening Edge Browser
+2025-05-28 22:22:26,815 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-28 22:22:26,815 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-28 22:22:43,183 - automationLogger - INFO - Closing the browser
+2025-05-29 22:08:09,600 - automationLogger - INFO - Opening Edge Browser
+2025-05-29 22:08:24,174 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-29 22:08:24,174 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-29 22:08:40,145 - automationLogger - INFO - Closing the browser
+2025-05-31 11:00:53,085 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:01:05,592 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:01:05,592 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:01:21,484 - automationLogger - INFO - Closing the browser
+2025-05-31 11:05:08,839 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:05:19,699 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:05:19,704 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:05:39,532 - automationLogger - INFO - Closing the browser
+2025-05-31 11:08:28,372 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:08:38,784 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:08:38,785 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:08:42,053 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 11:08:57,689 - automationLogger - INFO - Closing the browser
+2025-05-31 11:12:14,246 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:12:23,309 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:12:23,310 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:12:26,838 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 11:12:29,821 - automationLogger - INFO - Step 3: Selecting departure date
+2025-05-31 11:12:45,607 - automationLogger - INFO - Closing the browser
+2025-05-31 11:13:59,110 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:14:06,814 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:14:06,815 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:14:09,987 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 11:14:12,974 - automationLogger - INFO - Step 3: Selecting departure date
+2025-05-31 11:14:29,300 - automationLogger - INFO - Closing the browser
+2025-05-31 11:24:51,291 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:25:01,489 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:25:01,489 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:25:08,793 - automationLogger - INFO - Closing the browser
+2025-05-31 11:25:34,976 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:25:42,899 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:25:42,900 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:25:46,287 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 11:25:49,461 - automationLogger - INFO - Step 3: Selecting departure date
+2025-05-31 11:26:05,795 - automationLogger - INFO - Closing the browser
+2025-05-31 11:26:56,123 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:27:04,242 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:27:04,242 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:27:07,800 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 11:27:10,888 - automationLogger - INFO - Step 3: Selecting departure date
+2025-05-31 11:27:27,512 - automationLogger - INFO - Closing the browser
+2025-05-31 11:28:31,294 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 11:28:39,038 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 11:28:39,038 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 11:28:42,582 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 11:28:45,639 - automationLogger - INFO - Step 3: Selecting departure date
+2025-05-31 11:29:01,808 - automationLogger - INFO - Closing the browser
+2025-05-31 21:30:36,053 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 21:30:47,598 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 21:30:47,599 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 21:30:51,275 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 21:30:54,853 - automationLogger - INFO - Step 3: Selecting departure date
+2025-05-31 21:31:11,018 - automationLogger - INFO - Closing the browser
+2025-05-31 21:37:39,744 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 21:37:49,129 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 21:37:49,130 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 21:37:52,579 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 21:37:55,804 - automationLogger - INFO - Step 3: Selecting departure date
+2025-05-31 21:38:12,254 - automationLogger - INFO - Closing the browser
+2025-05-31 21:39:13,194 - automationLogger - INFO - Opening Edge Browser
+2025-05-31 21:39:20,848 - automationLogger - INFO - ===== STARTING TEST: Search Flight and Apply Filters =====
+2025-05-31 21:39:20,848 - automationLogger - INFO - Step 1: Selecting departure city 'Dubai'
+2025-05-31 21:39:24,211 - automationLogger - INFO - Step 2: Selecting destination city 'Hyderabad'
+2025-05-31 21:39:27,186 - automationLogger - INFO - Step 3: Selecting departure date
+2025-05-31 21:39:27,893 - automationLogger - INFO - Step 4: Clicking on 'Search Flights'
+2025-05-31 21:39:30,826 - automationLogger - INFO - Step 5: Scrolling the page to load results
+2025-05-31 21:39:55,144 - automationLogger - INFO - Step 6: Applying '1 Stop' filter
+2025-05-31 21:39:55,415 - automationLogger - WARNING - 1 Stop Filtered
+2025-05-31 21:39:57,425 - automationLogger - INFO - Step 7: Validating all filtered flights
+2025-05-31 21:39:57,442 - automationLogger - INFO - Total number of flights in the search flight page is 39
+2025-05-31 21:39:57,445 - automationLogger - INFO - ===== TEST COMPLETED SUCCESSFULLY =====
+2025-05-31 21:39:57,445 - automationLogger - INFO - ******* ============================ *******
+2025-05-31 21:40:02,449 - automationLogger - INFO - Closing the browser

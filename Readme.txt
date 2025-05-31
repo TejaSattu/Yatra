@@ -1,0 +1,2 @@
+# Command
+pytest --browser chrome

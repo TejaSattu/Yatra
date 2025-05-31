@@ -43,7 +43,6 @@ def url(request):
 def setup(request, browser, url):
     # Create a custom logger instance
     log = Utils.custom_logger(logging.INFO)
-
     # Select the browser based on the user's input
     if browser.lower() == "chrome":
         log.info("Opening Chrome Browser")

@@ -1,7 +1,6 @@
 import logging
 import time
 from selenium.webdriver.common.by import By
-import pytest
 from utilities.utils import Utils
 from base.base_driver import base_driver
 

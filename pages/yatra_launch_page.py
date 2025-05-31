@@ -21,19 +21,18 @@ class Launching_page(base_driver):
     # ---------------------------
     # Locators (elements on the page)
     # ---------------------------
-    DEPART_FROM_FIELD_SELECTION = "//*[@id='__next']/div/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/p[2]"
+    DEPART_FROM_FIELD_SELECTION = "//p[@title='New Delhi']"
     DEPART_FROM_TEXT_FIELD_SELECTION = "//*[@id='input-with-icon-adornment']"
-    SEARCH_DEPART_DROPDOWN_SELECTION = "//*[@id='__next']/div/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[3]/div[2]/div/div[1]/div/ul/div/li"
+    SEARCH_DEPART_DROPDOWN_SELECTION = "//div[normalize-space()='Dubai, (DXB)']"
 
-    GOING_TO_FIELD = "//*[@id='__next']/div/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/p[2]"
+    GOING_TO_FIELD = "//p[@title='Mumbai']"
     GOING_TO_TEXT_SELECTION = "input-with-icon-adornment"
-    SEARCH_GOING_DROPDOWN_SELECTION = "//*[@id='__next']/div/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/div[3]/div[2]/div/div[1]/div/ul/div[1]/li"
+    SEARCH_GOING_DROPDOWN_SELECTION = "//div[@class='fw-600 mb-0']"
 
-    DEPART_CALENDER_FIELD_SELECTION = "//*[@id='__next']/div/div[1]/div[2]/div[2]/div[2]/div[1]/div[2]/div/div[1]/div[2]"
-    DEPART_CALENDER_SELECTION = "//*[@id='__next']/div/div[1]/div[2]/div[2]/div[2]/div[1]/div[2]/div/div[4]"
-    DEPART_DATE_SELECTION_FROM_CALENDER = "//div[@aria-label='Choose Wednesday, May 7th, 2025']"
-
-    CLICKING_SEARCH = "//*[@id='__next']/div/div[1]/div[2]/div[2]/div[2]/div[1]/div[4]/div"
+    DEPART_CALENDER_FIELD_SELECTION = "//div[@class='css-w7k25o']"
+    # DEPART_CALENDER_SELECTION = "//div[@class='MuiBox-root css-89knyc']"
+    DEPART_DATE_SELECTION_FROM_CALENDER = "(//span[@aria-label='MAHA SHIVARATHIRI'])[67]"
+    CLICKING_SEARCH = "(//button[normalize-space()='Search'])[1]"
 
     # ---------------------------
     # Methods to perform actions
@@ -74,7 +73,7 @@ class Launching_page(base_driver):
     def depart_calender_date_selection(self):
         """Open the calendar and select the departure date."""
         self.element_to_be_clickable(By.XPATH, self.DEPART_CALENDER_FIELD_SELECTION).click()
-        self.element_to_be_clickable(By.XPATH, self.DEPART_CALENDER_SELECTION).click()
+        # self.element_to_be_clickable(By.XPATH, self.DEPART_CALENDER_SELECTION).click()
         self.presence_of_element_located(By.XPATH, self.DEPART_DATE_SELECTION_FROM_CALENDER).click()
 
     def search_selection_in_homepage(self):
