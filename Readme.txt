@@ -1,2 +1,2 @@
 # Command
-pytest --browser chrome
+pytest --browser chrome --url https://www.yatra.com/
